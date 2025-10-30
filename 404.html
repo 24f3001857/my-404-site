@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <!-- Load Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'sans': ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans antialiased">
+
+  <div class="min-h-screen flex flex-col items-center justify-center text-center p-8">
+    <div class="max-w-lg w-full">
+      <!-- Creative 404 Title -->
+      <h1 class="text-9xl font-extrabold text-indigo-600 tracking-wider">404</h1>
+      
+      <!-- Creative & Helpful Message -->
+      <h2 class="text-4xl font-bold text-gray-800 mt-4 mb-2">Oops! You've taken a wrong turn.</h2>
+      <p class="text-lg text-gray-600 mb-8">
+        It seems the page you're looking for doesn't exist or has been moved.
+        Don't worry, it happens to the best of us!
+      </p>
+      
+      <!-- Required Link Back Home (Styled as a button) -->
+      <a href="/" class="inline-block px-6 py-3 bg-indigo-600 text-white font-medium text-lg rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors">
+        ← Go Back Home
+      </a>
+      
+      <!-- Required Contact Email -->
+      <div class="mt-12 text-sm text-gray-500">
+        <p>If you think this is a mistake, please contact us.</p>
+        <p>Contact: <!--email_off-->24f3001857@ds.study.iitm.ac.in<!--/email_off--></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
